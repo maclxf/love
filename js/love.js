@@ -129,6 +129,8 @@ timer2 = setInterval(() => {
       var days = Math.floor(date3 / (24 * 3600 * 1000));
       console.log(days);
       document.getElementById("days").innerHTML = days;
+      document.getElementById("days").style.fontSize = '60px'
+      document.getElementById("days").style.color = 'pink'
 
   }
 
